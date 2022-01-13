@@ -1,0 +1,28 @@
+{
+  "name": "tr_block",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap a new Gutenberg block for a theme_redone starter",
+  "main": "src/index.js",
+  "bin": {
+    "@nikola_wd/tr-block": "bin/tr-block",
+    "tr-block": "bin/tr-block"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikola-wd/wrwps-blocks-cli.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webredone"
+  ],
+  "author": "Nikola Ivanov - webredone.com",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
